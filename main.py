@@ -3,3 +3,4 @@ import pydaisi as pyd
 import pandas as pd
 def printSummary(text):
     st.header(text)
+printSummary(text)
