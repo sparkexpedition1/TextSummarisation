@@ -2,8 +2,8 @@ import streamlit as st
 import pydaisi as pyd
 import pandas as pd
 import nltk
-from nltk.corpus import stopwords
-from nltk.tokenize import word_tokenize, sent_tokenize
+#from nltk.corpus import stopwords
+#from nltk.tokenize import word_tokenize, sent_tokenize
 def printSummary(text):  
     # Tokenizing the text
     stopWords = set(stopwords.words("english"))
